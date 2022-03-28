@@ -11,28 +11,31 @@
 		AA6DDAFF64B68A07820CBFA0 /* Pods_SwiftAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD25754DE8B8062B67DC2901 /* Pods_SwiftAppTests.framework */; };
 		C19475831BE5DAE8F3220EDB /* Pods_SwiftApp_SwiftAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785BC3E366448D0DED41B40B /* Pods_SwiftApp_SwiftAppUITests.framework */; };
 		D58125E427D0960D00216AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58125E327D0960D00216AE2 /* AppDelegate.swift */; };
-		D58125E627D0960D00216AE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58125E527D0960D00216AE2 /* SceneDelegate.swift */; };
 		D58125E827D0960D00216AE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58125E727D0960D00216AE2 /* ViewController.swift */; };
 		D58125EB27D0960D00216AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58125E927D0960D00216AE2 /* Main.storyboard */; };
 		D58125ED27D0960E00216AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58125EC27D0960E00216AE2 /* Assets.xcassets */; };
 		D58125F027D0960E00216AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58125EE27D0960E00216AE2 /* LaunchScreen.storyboard */; };
 		D58125FB27D0960E00216AE2 /* SwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58125FA27D0960E00216AE2 /* SwiftAppTests.swift */; };
 		D581260627D0960E00216AE2 /* SwiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D581260527D0960E00216AE2 /* SwiftAppUITests.swift */; };
-		D581261427D0961600216AE2 /* TableOfContentsSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D581261327D0961600216AE2 /* TableOfContentsSelector.swift */; };
-		D58D0EC027D1F61400AA6BE9 /* TGIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58D0EBF27D1F61400AA6BE9 /* TGIndexView.swift */; };
-		D58E3E7A27EEAFB600A33279 /* TGHudContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58E3E7327EEAFB600A33279 /* TGHudContentView.swift */; };
-		D58E3E7B27EEAFB600A33279 /* TGBadgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58E3E7427EEAFB600A33279 /* TGBadgeLabel.swift */; };
-		D58E3E7C27EEAFB600A33279 /* UIView+HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58E3E7527EEAFB600A33279 /* UIView+HUD.swift */; };
-		D58E3E7D27EEAFB600A33279 /* TGHudWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58E3E7627EEAFB600A33279 /* TGHudWindow.swift */; };
-		D58E3E7E27EEAFB600A33279 /* TGGuideTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58E3E7727EEAFB600A33279 /* TGGuideTipsView.swift */; };
-		D58E3E7F27EEAFB600A33279 /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58E3E7827EEAFB600A33279 /* IconFont.swift */; };
-		D58E3E8127EEAFEE00A33279 /* TGSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58E3E8027EEAFEE00A33279 /* TGSwitch.swift */; };
 		D58E3E9E27EF09D500A33279 /* iconfont.js in Resources */ = {isa = PBXBuildFile; fileRef = D58E3E9827EF09D500A33279 /* iconfont.js */; };
 		D58E3E9F27EF09D500A33279 /* demo.css in Resources */ = {isa = PBXBuildFile; fileRef = D58E3E9927EF09D500A33279 /* demo.css */; };
 		D58E3EA027EF09D500A33279 /* iconfont.json in Resources */ = {isa = PBXBuildFile; fileRef = D58E3E9A27EF09D500A33279 /* iconfont.json */; };
 		D58E3EA127EF09D500A33279 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D58E3E9B27EF09D500A33279 /* iconfont.ttf */; };
 		D58E3EA227EF09D500A33279 /* demo_index.html in Resources */ = {isa = PBXBuildFile; fileRef = D58E3E9C27EF09D500A33279 /* demo_index.html */; };
 		D58E3EA327EF09D500A33279 /* iconfont.css in Resources */ = {isa = PBXBuildFile; fileRef = D58E3E9D27EF09D500A33279 /* iconfont.css */; };
+		D598A04A27F146DA00FCE6A1 /* TGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D598A04927F146DA00FCE6A1 /* TGButton.m */; };
+		D598A04D27F1479F00FCE6A1 /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = D598A04B27F1479F00FCE6A1 /* UIButton+EnlargeEdge.m */; };
+		D598A05627F14ECE00FCE6A1 /* TGSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598A04F27F14ECE00FCE6A1 /* TGSwitch.swift */; };
+		D598A05727F14ECE00FCE6A1 /* TGHudContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598A05027F14ECE00FCE6A1 /* TGHudContentView.swift */; };
+		D598A05827F14ECE00FCE6A1 /* TGBadgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598A05127F14ECE00FCE6A1 /* TGBadgeLabel.swift */; };
+		D598A05927F14ECE00FCE6A1 /* UIView+HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598A05227F14ECE00FCE6A1 /* UIView+HUD.swift */; };
+		D598A05A27F14ECE00FCE6A1 /* TGHudWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598A05327F14ECE00FCE6A1 /* TGHudWindow.swift */; };
+		D598A05B27F14ECE00FCE6A1 /* TGGuideTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598A05427F14ECE00FCE6A1 /* TGGuideTipsView.swift */; };
+		D598A05C27F14ECE00FCE6A1 /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598A05527F14ECE00FCE6A1 /* IconFont.swift */; };
+		D598A05F27F14EF300FCE6A1 /* UIColor+TGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D598A05E27F14EF300FCE6A1 /* UIColor+TGExtension.m */; };
+		D598A06227F14F1600FCE6A1 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D598A06027F14F1600FCE6A1 /* UIColor+Hex.m */; };
+		D598A06527F14F8100FCE6A1 /* TGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D598A06427F14F8100FCE6A1 /* TGBaseViewController.m */; };
+		D598A06727F14FF400FCE6A1 /* TGPopWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598A06627F14FF400FCE6A1 /* TGPopWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +66,6 @@
 		D5463B5927D7003700173077 /* 4664.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4664.jpg; sourceTree = "<group>"; };
 		D58125E027D0960D00216AE2 /* SwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58125E327D0960D00216AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D58125E527D0960D00216AE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D58125E727D0960D00216AE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D58125EA27D0960D00216AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D58125EC27D0960E00216AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,21 +77,31 @@
 		D581260127D0960E00216AE2 /* SwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D581260527D0960E00216AE2 /* SwiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppUITests.swift; sourceTree = "<group>"; };
 		D581260727D0960E00216AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D581261327D0961600216AE2 /* TableOfContentsSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableOfContentsSelector.swift; sourceTree = "<group>"; };
-		D58D0EBF27D1F61400AA6BE9 /* TGIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGIndexView.swift; sourceTree = "<group>"; };
-		D58E3E7327EEAFB600A33279 /* TGHudContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGHudContentView.swift; sourceTree = "<group>"; };
-		D58E3E7427EEAFB600A33279 /* TGBadgeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGBadgeLabel.swift; sourceTree = "<group>"; };
-		D58E3E7527EEAFB600A33279 /* UIView+HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+HUD.swift"; sourceTree = "<group>"; };
-		D58E3E7627EEAFB600A33279 /* TGHudWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGHudWindow.swift; sourceTree = "<group>"; };
-		D58E3E7727EEAFB600A33279 /* TGGuideTipsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGGuideTipsView.swift; sourceTree = "<group>"; };
-		D58E3E7827EEAFB600A33279 /* IconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
-		D58E3E8027EEAFEE00A33279 /* TGSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSwitch.swift; sourceTree = "<group>"; };
 		D58E3E9827EF09D500A33279 /* iconfont.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = iconfont.js; sourceTree = "<group>"; };
 		D58E3E9927EF09D500A33279 /* demo.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = demo.css; sourceTree = "<group>"; };
 		D58E3E9A27EF09D500A33279 /* iconfont.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iconfont.json; sourceTree = "<group>"; };
 		D58E3E9B27EF09D500A33279 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		D58E3E9C27EF09D500A33279 /* demo_index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_index.html; sourceTree = "<group>"; };
 		D58E3E9D27EF09D500A33279 /* iconfont.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iconfont.css; sourceTree = "<group>"; };
+		D598A04727F146DA00FCE6A1 /* SwiftApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		D598A04827F146DA00FCE6A1 /* TGButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGButton.h; sourceTree = "<group>"; };
+		D598A04927F146DA00FCE6A1 /* TGButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGButton.m; sourceTree = "<group>"; };
+		D598A04B27F1479F00FCE6A1 /* UIButton+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeEdge.m"; sourceTree = "<group>"; };
+		D598A04C27F1479F00FCE6A1 /* UIButton+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeEdge.h"; sourceTree = "<group>"; };
+		D598A04F27F14ECE00FCE6A1 /* TGSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGSwitch.swift; sourceTree = "<group>"; };
+		D598A05027F14ECE00FCE6A1 /* TGHudContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGHudContentView.swift; sourceTree = "<group>"; };
+		D598A05127F14ECE00FCE6A1 /* TGBadgeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGBadgeLabel.swift; sourceTree = "<group>"; };
+		D598A05227F14ECE00FCE6A1 /* UIView+HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+HUD.swift"; sourceTree = "<group>"; };
+		D598A05327F14ECE00FCE6A1 /* TGHudWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGHudWindow.swift; sourceTree = "<group>"; };
+		D598A05427F14ECE00FCE6A1 /* TGGuideTipsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGGuideTipsView.swift; sourceTree = "<group>"; };
+		D598A05527F14ECE00FCE6A1 /* IconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
+		D598A05D27F14EF300FCE6A1 /* UIColor+TGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TGExtension.h"; sourceTree = "<group>"; };
+		D598A05E27F14EF300FCE6A1 /* UIColor+TGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TGExtension.m"; sourceTree = "<group>"; };
+		D598A06027F14F1600FCE6A1 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		D598A06127F14F1600FCE6A1 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		D598A06327F14F8100FCE6A1 /* TGBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGBaseViewController.h; sourceTree = "<group>"; };
+		D598A06427F14F8100FCE6A1 /* TGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGBaseViewController.m; sourceTree = "<group>"; };
+		D598A06627F14FF400FCE6A1 /* TGPopWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGPopWindow.swift; sourceTree = "<group>"; };
 		E6F9EB7B3AB3588DBC3DDFAB /* Pods-SwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftApp.release.xcconfig"; path = "Target Support Files/Pods-SwiftApp/Pods-SwiftApp.release.xcconfig"; sourceTree = "<group>"; };
 		F8480FCBF19CA0897B704655 /* Pods-SwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftApp.debug.xcconfig"; path = "Target Support Files/Pods-SwiftApp/Pods-SwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,18 +182,16 @@
 		D58125E227D0960D00216AE2 /* SwiftApp */ = {
 			isa = PBXGroup;
 			children = (
+				D598A04627F146CD00FCE6A1 /* TGTools */,
 				D58E3E9727EF09D500A33279 /* font_h7df0y2qx9 */,
-				D58E3E7127EEAFB600A33279 /* standard(标准基础组件库) */,
+				D598A04E27F14ECE00FCE6A1 /* standard(标准基础组件库) */,
 				D58125E327D0960D00216AE2 /* AppDelegate.swift */,
-				D58125E527D0960D00216AE2 /* SceneDelegate.swift */,
 				D58125E727D0960D00216AE2 /* ViewController.swift */,
-				D581261327D0961600216AE2 /* TableOfContentsSelector.swift */,
 				D58125E927D0960D00216AE2 /* Main.storyboard */,
 				D5463B5927D7003700173077 /* 4664.jpg */,
 				D58125EC27D0960E00216AE2 /* Assets.xcassets */,
 				D58125EE27D0960E00216AE2 /* LaunchScreen.storyboard */,
 				D58125F127D0960E00216AE2 /* Info.plist */,
-				D58D0EBF27D1F61400AA6BE9 /* TGIndexView.swift */,
 			);
 			path = SwiftApp;
 			sourceTree = "<group>";
@@ -204,20 +214,6 @@
 			path = SwiftAppUITests;
 			sourceTree = "<group>";
 		};
-		D58E3E7127EEAFB600A33279 /* standard(标准基础组件库) */ = {
-			isa = PBXGroup;
-			children = (
-				D58E3E8027EEAFEE00A33279 /* TGSwitch.swift */,
-				D58E3E7327EEAFB600A33279 /* TGHudContentView.swift */,
-				D58E3E7427EEAFB600A33279 /* TGBadgeLabel.swift */,
-				D58E3E7527EEAFB600A33279 /* UIView+HUD.swift */,
-				D58E3E7627EEAFB600A33279 /* TGHudWindow.swift */,
-				D58E3E7727EEAFB600A33279 /* TGGuideTipsView.swift */,
-				D58E3E7827EEAFB600A33279 /* IconFont.swift */,
-			);
-			path = "standard(标准基础组件库)";
-			sourceTree = "<group>";
-		};
 		D58E3E9727EF09D500A33279 /* font_h7df0y2qx9 */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +225,40 @@
 				D58E3E9D27EF09D500A33279 /* iconfont.css */,
 			);
 			path = font_h7df0y2qx9;
+			sourceTree = "<group>";
+		};
+		D598A04627F146CD00FCE6A1 /* TGTools */ = {
+			isa = PBXGroup;
+			children = (
+				D598A05D27F14EF300FCE6A1 /* UIColor+TGExtension.h */,
+				D598A05E27F14EF300FCE6A1 /* UIColor+TGExtension.m */,
+				D598A04C27F1479F00FCE6A1 /* UIButton+EnlargeEdge.h */,
+				D598A04B27F1479F00FCE6A1 /* UIButton+EnlargeEdge.m */,
+				D598A04827F146DA00FCE6A1 /* TGButton.h */,
+				D598A04927F146DA00FCE6A1 /* TGButton.m */,
+				D598A06127F14F1600FCE6A1 /* UIColor+Hex.h */,
+				D598A06027F14F1600FCE6A1 /* UIColor+Hex.m */,
+				D598A06327F14F8100FCE6A1 /* TGBaseViewController.h */,
+				D598A06427F14F8100FCE6A1 /* TGBaseViewController.m */,
+				D598A04727F146DA00FCE6A1 /* SwiftApp-Bridging-Header.h */,
+			);
+			path = TGTools;
+			sourceTree = "<group>";
+		};
+		D598A04E27F14ECE00FCE6A1 /* standard(标准基础组件库) */ = {
+			isa = PBXGroup;
+			children = (
+				D598A04F27F14ECE00FCE6A1 /* TGSwitch.swift */,
+				D598A05027F14ECE00FCE6A1 /* TGHudContentView.swift */,
+				D598A05127F14ECE00FCE6A1 /* TGBadgeLabel.swift */,
+				D598A05227F14ECE00FCE6A1 /* UIView+HUD.swift */,
+				D598A05327F14ECE00FCE6A1 /* TGHudWindow.swift */,
+				D598A05427F14ECE00FCE6A1 /* TGGuideTipsView.swift */,
+				D598A05527F14ECE00FCE6A1 /* IconFont.swift */,
+				D598A06627F14FF400FCE6A1 /* TGPopWindow.swift */,
+			);
+			name = "standard(标准基础组件库)";
+			path = "../../../tungee/saas/TGToolsKit/TGToolsKit/Classes/UI/standard(标准基础组件库)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +333,7 @@
 				TargetAttributes = {
 					D58125DF27D0960D00216AE2 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					D58125F527D0960E00216AE2 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -475,18 +506,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D581261427D0961600216AE2 /* TableOfContentsSelector.swift in Sources */,
+				D598A05A27F14ECE00FCE6A1 /* TGHudWindow.swift in Sources */,
 				D58125E827D0960D00216AE2 /* ViewController.swift in Sources */,
-				D58E3E7E27EEAFB600A33279 /* TGGuideTipsView.swift in Sources */,
-				D58E3E8127EEAFEE00A33279 /* TGSwitch.swift in Sources */,
-				D58E3E7A27EEAFB600A33279 /* TGHudContentView.swift in Sources */,
-				D58E3E7C27EEAFB600A33279 /* UIView+HUD.swift in Sources */,
-				D58D0EC027D1F61400AA6BE9 /* TGIndexView.swift in Sources */,
-				D58E3E7D27EEAFB600A33279 /* TGHudWindow.swift in Sources */,
-				D58E3E7B27EEAFB600A33279 /* TGBadgeLabel.swift in Sources */,
-				D58E3E7F27EEAFB600A33279 /* IconFont.swift in Sources */,
+				D598A05B27F14ECE00FCE6A1 /* TGGuideTipsView.swift in Sources */,
+				D598A05727F14ECE00FCE6A1 /* TGHudContentView.swift in Sources */,
+				D598A06227F14F1600FCE6A1 /* UIColor+Hex.m in Sources */,
+				D598A05927F14ECE00FCE6A1 /* UIView+HUD.swift in Sources */,
+				D598A05627F14ECE00FCE6A1 /* TGSwitch.swift in Sources */,
+				D598A05C27F14ECE00FCE6A1 /* IconFont.swift in Sources */,
+				D598A04A27F146DA00FCE6A1 /* TGButton.m in Sources */,
+				D598A04D27F1479F00FCE6A1 /* UIButton+EnlargeEdge.m in Sources */,
+				D598A06527F14F8100FCE6A1 /* TGBaseViewController.m in Sources */,
+				D598A05F27F14EF300FCE6A1 /* UIColor+TGExtension.m in Sources */,
+				D598A06727F14FF400FCE6A1 /* TGPopWindow.swift in Sources */,
+				D598A05827F14ECE00FCE6A1 /* TGBadgeLabel.swift in Sources */,
 				D58125E427D0960D00216AE2 /* AppDelegate.swift in Sources */,
-				D58125E627D0960D00216AE2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,7 +626,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -647,7 +681,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -663,16 +697,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SWBZ3857AK;
 				INFOPLIST_FILE = SwiftApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangpei.www.SwiftApp001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftApp/TGTools/SwiftApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -684,16 +721,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SWBZ3857AK;
 				INFOPLIST_FILE = SwiftApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangpei.www.SwiftApp001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftApp/TGTools/SwiftApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

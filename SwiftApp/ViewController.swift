@@ -21,6 +21,25 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let s0 = TGSwitch.config(status: .closeDefault) { [weak self] isOn in
+            guard let `self` = self else { return }
+            let p = isOn ? "打开" : "关闭"
+
+            self.switchStateChange(isOn: isOn)
+            print("\(p)")
+        }
+        s0.frame = CGRect(x: 300, y: 50, width: 58, height: 31)
+        view.addSubview(s0)
+
+
+        let v = UIView(frame: CGRect(x: 0, y: 0, width: 180, height: 500))
+        v.backgroundColor = .red
+        TGPopWindow.show(t: .bubble, c: v, true, 80)
+        
+    }
+    
+    func tipsViewTest() {
+        
         let l = UILabel(frame: CGRect(x: 20, y: 40, width: 200, height: 80))
         l.text = "\u{e6a0}"
         l.font = .init(name: "iconfont", size: 16)
@@ -119,25 +138,41 @@ class ViewController: UIViewController {
             })
         })
         
-        
     }
     func switchStateChange1(isOn: Bool) {
     
         if isOn {
-            view.showMessage("奥斯特洛夫斯基.弗拉基米尔")
+            view.showMessage(getTitle)
         } else {
-            view.showNotice("奥斯特洛夫斯基", detail: "弗拉基米尔")
+            view.showNotice(getTitle, detail: getTitle)
         }
     
     }
     
     
     
+    var getTitle: String {
+        let array = ["奥斯特洛夫斯基.弗拉尔8",
+                     "奥斯特洛夫斯基.弗拉基米0",
+                     "奥斯特洛夫斯基2",
+                     "奥斯特3",
+                     "奥斯特洛夫斯4",
+                     "奥斯特洛夫斯基斯特5",
+                     "奥斯特洛夫斯基奥斯6",
+                    ]
+        
+        let idx = Int(arc4random()) % array.count
+        
+        return array[idx]
+
+    }
+    
+    
     func switchStateChange(isOn: Bool) {
         let idx = Int(arc4random() % 8)
         let array:[angleDirection] = [.left, .topLeft, .bottomLeft, .topCenter, .bottomLeft, .bottomRight, .bottomCenter,. right];
         let d = array[idx]
-        let tip = TGGuideTipsView.config(with: "奥斯特洛夫斯基", direction: d) {
+        let tip = TGGuideTipsView.config(with: getTitle, direction: d) {
             print("引导 view 关闭")
         }
         
